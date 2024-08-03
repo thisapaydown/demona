@@ -4,10 +4,8 @@ import time
 
 exe_path = "vpnplanet.exe"
 
-
 # Run the executable
 subprocess.Popen([exe_path])
-
 
 actions = [
     (611,528,4),
@@ -26,7 +24,3 @@ actions = [
 
 for x, y, duration in actions:
     pag.click(x, y, duration=duration)
-
-# this is content is ppp2a and ppp@pa
-#hashing may contains error 
-# let it sign out 
